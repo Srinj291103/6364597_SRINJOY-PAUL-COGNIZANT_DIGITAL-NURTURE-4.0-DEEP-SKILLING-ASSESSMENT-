@@ -56,10 +56,10 @@ class ProductSearch
     static void Main(string[] args)
     {
         Product[] productList = {
-            new Product(1, "Keyboard", "Electronics"),
-            new Product(2, "Shoes", "Apparel"),
-            new Product(3, "Chair", "Furniture"),
-            new Product(4, "Mobile", "Electronics")
+            new Product(1, "Tablet", "Electronics"),
+            new Product(2, "Boots", "Apparel"),
+            new Product(3, "Cupboard", "Furniture"),
+            new Product(4, "Laptop", "Electronics")
         };
 
         string targetName = "Mobile";
