@@ -2,13 +2,13 @@ using System;
 
 namespace DocumentFactoryDemo
 {
-    // Interface representing a generic document
+    
     public interface IDocument
     {
         void Open();
     }
 
-    // Concrete Document Classes
+    
     public class WordDocument : IDocument
     {
         public void Open()
@@ -33,13 +33,13 @@ namespace DocumentFactoryDemo
         }
     }
 
-    // Abstract Creator
+    
     public abstract class DocumentFactory
     {
         public abstract IDocument CreateDocument();
     }
 
-    // Concrete Factories
+
     public class WordDocumentFactory : DocumentFactory
     {
         public override IDocument CreateDocument()
